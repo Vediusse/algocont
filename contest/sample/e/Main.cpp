@@ -5,7 +5,7 @@
 using namespace std;
 
 bool canPlaceCows(const vector<int>& stalls, int K, int dist) {
-  int count = 1;  // Первая корова встаёт в первый стойло
+  int count = 1;  
   int lastPosition = stalls[0];
 
   for (size_t i = 1; i < stalls.size(); i++) {
